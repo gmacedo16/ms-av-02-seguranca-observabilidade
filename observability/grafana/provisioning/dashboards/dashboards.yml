@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: MS-AV-02
+    orgId: 1
+    folder: Segurança e Observabilidade
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
